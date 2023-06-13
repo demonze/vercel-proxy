@@ -1,7 +1,7 @@
 {
   "routes": [
     {
-      "src": "api/openai/(.*)",
+      "src": "/api/openai/(.*)",
       "dest": "https://api.openai.com/$1"
     }
   ]
